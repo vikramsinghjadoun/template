@@ -1,0 +1,248 @@
+/*roberto news area css*/
+
+.bhandan-news-area {
+    padding: 100px 0px;
+}
+
+.bhandan-news-area .single-blog-post {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.bhandan-news-area .single-blog-post .post-thumbnail {
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
+.bhandan-news-area .post-thumbnail img {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    height: 280px;
+    border-radius: 4px;
+}
+
+.bhandan-news-area .post-content {
+    position: relative;
+    z-index: 1;
+    -webkit-box-flex: 0;
+    flex: 0 0 60%;
+    max-width: 60%;
+    width: 60%;
+    padding: 0px 30px;
+}
+
+.bhandan-news-area .post-content .post-meta {
+    margin-bottom: 10px;
+}
+
+.bhandan-news-area .post-meta a {
+    text-decoration: none;
+    color: #840600;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.bhandan-news-area .post-meta a:hover {
+    color: #e5c97f;
+    transition: 0.5s ease;
+}
+
+.bhandan-news-area .post-content .post-meta .post-tutorial::before {
+    content: "/";
+}
+
+
+.bhandan-news-area .post-title {
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #e5c97f;
+    line-height: 1;
+    display: block;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.bhandan-news-area .post-title:hover {
+    color: black;
+    transition: 0.5s ease;
+}
+
+.bhandan-news-area .post-content p {
+    margin-bottom: 15px;
+    color: #840600;
+    font-size: 1.4em;
+    line-height: 1.4;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Dancing Script', 'Cursive';
+}
+
+
+.bhandan-news-area .post-content .post-button {
+    text-decoration: underline;
+    color: #636a76;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.bhandan-news-area .post-content .post-button:hover {
+    color: #000;
+    transition: 0.8s ease;
+    font-weight: bold;
+}
+
+.bhandan-news-area .pagination .page-link {
+    background: #840600 !important;
+    color: white !important;
+    margin: 0px 5px 0px -1px;
+    padding: 12px 15px;
+    border-radius: 4px;
+}
+
+.bhandan-news-area .pagination .page-link:hover {
+    background: #1cc3b2;
+    color: #840600;
+    transition: 0.5s;
+}
+
+/*roberto news area css ends*/
+
+/*news area second column area css*/
+
+.bhandan-news-area .roberto-sidebar-area {
+    padding-left: 20px;
+}
+
+.bhandan-news-area .single-widget-area {
+    margin-bottom: 100px;
+}
+
+.bhandan-news-area .single-widget-area .post-thumb img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.bhandan-news-area .single-widget-area .newsletter-form {
+    padding: 40px 20px;
+    background: #e8f1f8 !important;
+}
+
+.bhandan-news-area .single-widget-area .newsletter-form h5 {
+    font-size: 1.4em;
+    font-weight: 400 !important;
+}
+
+.single-widget-area .newsletter-form p {
+    font-size: 1.1em;
+    color: grey;
+}
+
+.single-widget-area form input[type=text] {
+    border: 1px solid #ffffff;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 1em;
+    height: 50px;
+    outline: none !important;
+    text-align: center;
+}
+
+.single-widget-area form input:focus {
+    border: 1px solid #840600 !important;
+}
+
+.single-widget-area form button {
+    width: 100%;
+    background: #840600;
+    color: white;
+    border: none;
+    height: 50px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.single-widget-area form button:hover {
+    color: #840600;
+    background: white;
+    transition: 0.5s ease;
+    box-shadow: 1px 0px 26px -2px rgba(211, 7, 51, 0.75);
+}
+
+
+
+.bhandan-news-area .single-widget-area .widget-title {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.single-widget-area .post-thumb {
+    margin-right: 20px;
+    flex: 0 0 110px;
+}
+
+.single-widget-area .post-meta {
+    margin-bottom: 5px !important;
+}
+
+.single-widget-area .post-author {
+    margin-right: 10px;
+}
+
+.single-widget-area .post-meta a {
+    text-decoration: none;
+    font-size: 1.1em !important;
+    display: inline-block !important;
+    color: #e5c97f;
+    font-weight: bold;
+}
+
+.single-widget-area .post-title {
+    font-size: 1.3em;
+    text-align: left;
+    color: #840600;
+    font-family: 'Dancing Script', 'Cursive';
+}
+
+.single-widget-area ul li {
+    display: inline-block !important;
+}
+
+.single-widget-area ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: grey;
+}
+
+.single-widget-area ul li a:hover {
+    color: #1cc3b2;
+    transition: 0.5s ease;
+}
+
+.single-widget-area .instagram-feeds li {
+    max-width: 30%;
+    height: auto;
+    display: inline-block;
+    flex: 0 0 33.333333% !important;
+}
+
+.single-widget-area .instagram-feeds li a img {
+    width: 100%;
+    height: auto;
+}
+
+.single-widget-area .instagram-feeds li a {
+    display: block;
+    padding: 8px;
+}
+
+
+
+
+/*news area second column area css*/

@@ -1,0 +1,1333 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/*top header area*/
+.top-header-area {
+    align-items: center;
+    display: flex;
+    background: #840600;
+}
+
+
+.top-header-area a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    line-height: 50px;
+}
+
+.top-header-area a:hover {
+    color: #e5c97f;
+}
+
+.top-header-area .top-header-content #headerIcon {
+    color: #e5c97f;
+    font-size: 2em;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+.top-header-area .top-header-content span {
+    font-size: 1.2em;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.top-header-contents {
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+.top-header-contents a {
+    color: white !important;
+    line-height: 50px;
+    font-size: 1em;
+    display: inline-block;
+}
+
+.top-header-contents #socialIcon {
+    font-size: 1.6em;
+    margin-top: 14px;
+}
+
+.top-header-contents #socialIcon:hover {
+    color: #e5c97f !important;
+    transition: 0.5s ease-in-out;
+}
+
+/* / top header area*/
+
+
+/*Header Area*/
+.navbar {
+    background-color: #e5c97f !important;
+}
+
+.navbar #wrapper {
+    display: none;
+}
+
+.navbar .navbar-brand {
+    padding: 0px 40px;
+}
+
+.navbar .navbar-brand>img {
+    width: 100%;
+    height: auto !important;
+}
+
+.navbar .nav-item .nav-link {
+    color: #840600 !important;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #fffadd !important;
+    transition: 1s ease !important;
+}
+
+.navbar .active>.nav-link {
+    color: white !important;
+}
+
+.navbar .active>.nav-link:hover {
+    color: #840600 !important;
+    transition: 1s ease !important;
+}
+
+.navbar .dropdown .dropdown-menu {
+    background: #840600;
+}
+
+.navbar .dropdown .dropdown-menu a {
+    font-size: 1.4em;
+    font-family: 'Dancing Script', 'cursive';
+}
+
+.navbar .dropdown .dropdown-menu a:hover {
+    background: transparent;
+    color: #e5c97f !important;
+    font-weight: bold;
+}
+
+
+
+#wrapper {
+    background: #840600;
+    display: inline-block;
+    border-radius: 500px;
+    margin: 5px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    right: 5px;
+    height: 4px;
+    width: 80%;
+    background: #fff;
+    border-radius: 8px;
+    transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.60s;
+}
+
+.top {
+    top: 10%;
+}
+
+.middle {
+    top: 40%;
+}
+
+.bottom {
+    top: 70%;
+}
+
+.icon.close .top {
+    transform: rotate(45deg);
+    top: 48%;
+}
+
+.icon.close .middle,
+.icon.close .bottom {
+    transform: rotate(-45deg);
+    top: 48%;
+}
+
+#wrapper {
+    display: none;
+}
+
+/*/ Header Area*/
+
+/*css for welcome area section*/
+.welcome-area {
+    position: relative;
+}
+
+.welcome-area .single-welcome-slide {
+    background: linear-gradient(45deg, rgba(253, 247, 161, 0.281), rgba(185, 24, 24, 0.548)), url("../img/banner-1.webp") repeat;
+    width: 100%;
+    height: auto;
+    background-position: center center;
+}
+
+.welcome-area .container {
+    padding: 200px 0px;
+}
+
+
+.row {
+    margin: 0 !important;
+}
+
+.welcome-area .welcome-content {
+    height: 100% !important;
+}
+
+.welcome-area .welcome-text h6 {
+    color: white;
+    font-size: 4em !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}
+
+.welcome-area .welcome-text h2 {
+    display: block;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    font-family: 'Dancing Script', 'Cursive';
+    font-size: 3em !important;
+    font-weight: bold;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}
+
+.welcome-area .welcome-text a button {
+    border: 3px solid #840600;
+    background: transparent;
+    color: #840600;
+    min-width: 200px;
+    height: 54px;
+    line-height: 46px;
+    font-size: 1.4em;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+.welcome-area .welcome-text a button:hover {
+    background: #840600;
+    color: white;
+    transition: 1s ease-out;
+    border: 2px solid white;
+}
+
+.animated {
+    animation-iteration-count: infinite;
+    animation-duration: 5s !important;
+}
+
+/*css for welcome area section finished*/
+
+/*css form search form section*/
+
+.about-area {
+    background-image: url('../img/pat-1.jpg');
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid maroon;
+
+    position: relative;
+}
+
+.about-area::before {
+    content: "";
+    width: 100%;
+    height: 100px;
+    background-image: url('../img/ripoff.png');
+    position: absolute;
+    top: -15%;
+    left: 0;
+    display: block;
+    visibility: visible;
+    background-size: cover;
+}
+
+
+
+.hotel-search-form {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 0 40px;
+    background-color: #e5c97f;
+    box-shadow: 1px 0px 20px -1px rgba(167, 167, 167, 0.75);
+    margin-top: -100px;
+    border-radius: 10px;
+}
+
+.about-area .hotel-search-form input:focus {
+    outline: 4px solid #840600;
+}
+
+.about-area .hotel-search-form select:focus {
+    outline: 4px solid #840600;
+}
+
+.hotel-search-form .row {
+    padding-bottom: 10px;
+}
+
+.hotel-search-form label {
+    font-family: 'Dancing Script', 'cursive';
+    color: #840600;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.about-area #SectionHeading h1 {
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+.about-area .section-heading {
+    margin-bottom: 40px;
+}
+
+.about-area .section-heading h2 {
+    font-size: 2.8em;
+    color: #840600;
+    font-weight: bold;
+    font-family: 'Dancing Script', 'cursive';
+}
+
+.about-area .section-heading h6 {
+    color: #e5c97f;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+
+
+.about-area .about_us_content h6 {
+    font-size: 1em;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+.about-area button {
+    width: 100%;
+    height: 50px;
+    background: #840600;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #edebed;
+    margin-bottom: 40px;
+}
+
+
+.about-area button:hover {
+    border: 2px solid #840600;
+    background: #fff;
+    color: #840600;
+    transition: 0.5s ease;
+    box-shadow: 1px 0px 43px 0px rgba(206, 55, 55, 0.75);
+}
+
+.about-area #SectionHeading h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #e5c97f;
+    text-shadow: 3px 1px 6px rgba(206, 55, 55, 0.75);
+}
+
+.about-area .about_us_content h6 {
+    font-family: 'Dancing Script', 'Cursive';
+    font-size: 1.4em;
+    color: maroon;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
+.about-area .about-us-thumbnail .single-thumb {
+    position: relative;
+    z-index: 1;
+    margin: 5px;
+    display: block;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.about-area .about-us-thumbnail .single-thumb img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-area .about-us-thumbnail .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/*css ends for search form section*/
+
+/*Services Section*/
+.services_area {
+    background-image: url('../img/pat-1.jpg');
+    width: 100%;
+    height: auto;
+}
+
+.services_area .serviceBox img {
+    width: 50%;
+    height: auto;
+}
+
+.services_area .serviceBox .service-icon {
+    background-color: #840600;
+    border-radius: 10px;
+    padding: 20px 0px;
+    padding-left: 80px;
+}
+
+.services_area .section_heading h1 {
+    font-size: 3em !important;
+    font-weight: bold;
+    color: #e5c97f;
+    text-shadow: 3px 1px 6px rgba(206, 55, 55, 0.75);
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+.services_area .section_heading p {
+    font-family: 'Dancing Script', 'Cursive';
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #840600;
+    text-align: justify;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+.services_area .service-content {
+    padding: 40px 0px;
+}
+
+.services_area .service-content h3 {
+    font-size: 1.6em;
+    text-align: center;
+    color: #840600;
+    font-weight: bold;
+}
+
+.services_area .service-icon:nth-child(1) {
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+
+}
+
+.services_area .service-icon:nth-child(2) {
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+.services_area .service-icon:nth-child(3) {
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+
+}
+
+.services_area .service-icon:nth-child(4) {
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+
+}
+
+.services_area .service-icon:nth-child(5) {
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+
+}
+
+.services_area .service-icon:nth-child(6) {
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+
+}
+
+.services_area .service-icon:nth-child(7) {
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+
+}
+
+.services_area .service-icon:nth-child(8) {
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+/*/ Services Section*/
+
+/*Parallex*/
+.Parallex_One {
+    max-width: 100% !important;
+    font-size: 24px;
+    height: auto;
+}
+
+.parallax {
+    min-height: 400px;
+    width: 100% !important;
+    background: transparent;
+    padding: 100px 40px;
+    font-family: 'Dancing Script', 'Cursive';
+    font-size: 1.2em;
+}
+
+.parallex_heading {
+    z-index: 1;
+    position: relative;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Poppins', 'sans-serif';
+    text-shadow: 5px 2px 6px rgba(206, 55, 55, 0.75);
+}
+
+.info {
+    z-index: 1;
+    position: relative;
+    color: #e5c97f;
+    font-weight: bold;
+}
+
+/*/ Parallex*/
+
+
+.wedding_section {
+    padding: 60px 0px;
+    z-index: 5 !important;
+    background-image: url('../img/pat-1.jpg');
+    height: auto;
+}
+
+.wedding_section .section_content .section_heading {
+    font-size: 4em;
+    font-weight: bold;
+    color: #e5c97f;
+    text-shadow: 3px 1px 6px rgba(206, 55, 55, 0.75);
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+.wedding_section .card-title {
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #840600;
+    font-family: 'Dancing Script', 'Cursive';
+}
+
+.wedding_section .section_content .section_paragraph {
+    font-size: 1.4em;
+    font-family: 'Dancing Script', 'Cursive';
+    font-weight: bold;
+    font-weight: bold;
+    color: #840600;
+    text-align: justify;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+.wedding_section .card {
+    animation-iteration-count: 2;
+    animation-duration: 10s;
+}
+
+.wedding_section .card img {
+    height: 200px;
+}
+
+
+.wedding_section .card-body .card-text {
+    font-size: 1.2em !important;
+    font-family: 'Dancing Script', 'cursive';
+    font-weight: bold;
+    text-align: justify;
+    color: #840600 !important;
+}
+
+.wedding_section .card-body #myBtn,
+#myBtnJodhpur,
+#myBtnUdipur {
+    background-color: #840600 !important;
+    color: white;
+    font-size: 0.9em;
+}
+
+.wedding_section .card-body #myBtn:hover,
+#myBtnJodhpur:hover,
+#myBtnUdipur:hover {
+    background-color: white !important;
+    color: #840600 !important;
+    border: 1px solid #840600;
+    transition: 0.3s ease-in;
+    font-weight: bold;
+    box-shadow: 1px 0px 43px 0px rgba(206, 55, 55, 0.75);
+}
+
+/*second parallex*/
+.ParallexTwo {
+    background-image: url('../img/Dreams_Day_Creation03.jpg');
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ParallexTwo h1 {
+    z-index: 1;
+    position: relative;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Poppins', 'sans-serif';
+    text-shadow: 5px 2px 6px rgba(206, 55, 55, 0.75);
+}
+
+/* / second parallex*/
+
+/*css for our project section*/
+.our_project_section {
+    padding: 80px 40px;
+    background-image: url('../img/pat-1.jpg');
+    height: auto;
+    width: 100%;
+}
+
+.our_project_section .section_heading>p {
+    font-size: 1.6em;
+    font-family: 'Dancing Script', 'cursive';
+    color: #840600;
+    font-weight: bold;
+    padding: 40px 0px;
+    animation-iteration-count: 3;
+    animation-duration: 5s;
+}
+
+.our_project_section .section_title h2 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #840600;
+    text-transform: uppercase;
+    text-align: center;
+    animation-iteration-count: 3;
+    animation-duration: 5s;
+}
+
+.our_project_section .project-menu-item ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.our_project_section .project-menu-item ul li {
+    display: inline-block;
+    color: #840600;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+.our_project_section .project-menu-item ul li:hover {
+    border-bottom: 2px solid maroon;
+    transition: 0.1s ease-out;
+}
+
+.our_project_section .single_our_project .single_offer img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.hover_text {
+    top: 0;
+    left: 10;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    background-color: #840600;
+    opacity: 0;
+    transition: 0.8s;
+    text-align: center;
+}
+
+.hover_text:hover {
+    opacity: 0.7;
+    transition: 1s ease-in-out;
+}
+
+.hover_text p {
+    color: white;
+    font-size: 2.2em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.hover_text ul li {
+    color: #e5c97f;
+    font-family: 'Dancing Script', 'Cursive';
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 1.8em;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+}
+
+.hover_text a {
+    text-decoration: none;
+    color: white;
+}
+
+/*css for our project section ends*/
+
+
+/*Parallex Three*/
+.Parallex_Three .parallex_heading {
+    font-size: 3em;
+}
+
+/* / Parallex Three*/
+
+/*Testimonial Section*/
+.Testimonial_section {
+    padding: 40px 0px;
+    background-image: url('../img/pat-1.jpg');
+    height: auto;
+    width: 100%;
+}
+
+.Testimonial_section h1 {
+    font-size: 3em;
+    color: #e5c97f;
+    font-weight: bold;
+}
+
+.Testimonial_section p {
+    font-size: 1.4em;
+    font-family: 'Dancing Script', 'cursive';
+    font-weight: bold;
+    color: #840600;
+}
+
+.Testimonial_section .firstPara {
+    padding: 20px 0px;
+}
+
+.Testimonial_section .secondPara {
+    color: #840600;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.Testimonial_section .container .owl-carousel .owl-dots {
+    display: none !important;
+}
+
+.Testimonial_section .owl-carousel .owl-nav .owl-prev {
+    width: 100px;
+    height: 70px;
+    background-image: url('../img/slide-button-left.png');
+    background-repeat: no-repeat;
+}
+
+.Testimonial_section .owl-carousel .owl-nav .owl-prev:hover {
+    width: 100px;
+    height: 70px;
+    background-image: url('../img/slide-button-left.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.Testimonial_section .owl-carousel .owl-nav .owl-next {
+    width: 100px;
+    height: 70px;
+    background-image: url('../img/slide-button-right.png');
+    background-repeat: no-repeat;
+}
+
+.Testimonial_section .owl-carousel .owl-nav .owl-next:hover {
+    width: 100px;
+    height: 70px;
+    background-image: url('../img/slide-button-right.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.Testimonial_section .owl-carousel .owl-nav .owl-next span {
+    display: none;
+}
+
+.Testimonial_section .owl-carousel .owl-nav .owl-prev span {
+    display: none;
+}
+
+/* / Testimonial Section*/
+
+
+/*Gallery section*/
+.gallery-block {
+    background-image: url('../img/pat-1.jpg');
+    width: 100%;
+    height: auto;
+}
+
+.gallery-block.grid-gallery {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.gallery-block.grid-gallery .heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block.grid-gallery .heading h2 {
+    font-weight: bold;
+    font-size: 3em !important;
+    text-transform: uppercase;
+    color: #840600;
+    animation-iteration-count: 3;
+    animation-duration: 5s;
+}
+
+.gallery-block.grid-gallery .heading p {
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Dancing Script', 'Cursive';
+    color: #e5c97f;
+    animation-iteration-count: 3;
+    animation-duration: 5s;
+}
+
+.gallery-block.grid-gallery a:hover {
+    opacity: 0.8;
+}
+
+.gallery-block.grid-gallery .item img {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+}
+
+.gallery-block.grid-gallery .item {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+
+    .gallery-block.grid-gallery .scale-on-hover:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+    }
+}
+
+/* / Gallery section*/
+
+.Counter {
+    padding: 40px 40px;
+    background-color: white;
+}
+
+.Counter .numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 15rem;
+    /* padding-top: 3vmin; */
+    height: auto;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+
+.Counter .numbers {
+    margin-top: .15vmin;
+}
+
+.Counter .numbers .rect {
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+.Counter .numbers .rect h1 {
+    font-size: 2.2em;
+    color: #840600;
+    font-weight: bold;
+}
+
+.Counter .counter_para {
+    font-size: 1.8em;
+    font-family: 'Dancing Script', 'Cursive';
+    color: #e5c97f;
+    font-weight: bold;
+}
+
+.Counter .CounterIcon {
+    padding: 20px 0px;
+}
+
+.Counter .CounterIcon #cIconOne,
+#cIconTwo,
+#cIconThree,
+#cIconFour {
+    font-size: 5em;
+    color: orangered;
+    font-weight: bold;
+}
+
+.Counter .CounterIcon #cIconTwo {
+    color: rgb(37, 57, 175);
+}
+
+.Counter .CounterIcon #cIconThree {
+    color: rgba(252, 252, 56, 0.993);
+}
+
+.Counter .CounterIcon #cIconFour {
+    color: rgba(89, 89, 255, 0.89);
+}
+
+/*/CounterAnimation Section*/
+
+
+/*partner area css*/
+.partner-area {
+    background-image: url('../img/pat-1.jpg');
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+}
+
+
+.partner-area .partner-area-content h1 {
+    color: #e5c97f;
+    padding: 20px 0px;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Poppins', 'sans-serif';
+    text-shadow: 5px 2px 6px rgba(206, 55, 55, 0.75);
+    animation-iteration-count: 3;
+    animation-duration: 5s;
+}
+
+.partner-area .partner-area-content p {
+    color: #840600;
+    font-family: 'Dancing Script', 'Cursive';
+    font-size: 2em;
+    font-weight: bold;
+    animation-iteration-count: 3;
+    animation-duration: 5s;
+}
+
+
+.partner-area .partner-logo-content {
+    padding: 40px 0px;
+}
+
+.partner-area .partner-logo-content a>img {
+    width: 100%;
+    height: auto;
+    border: 1px solid maroon;
+}
+
+/*partner area css ends*/
+
+/*css for footer area*/
+.footer-area-section {
+    background-color: #840600;
+    color: white;
+    padding-top: 80px;
+}
+
+.footer-area-section .single_footer_widget {
+    margin-bottom: 80px;
+}
+
+.footer-area-section .footer_logo {
+    margin-bottom: 20px;
+    display: block;
+    background-color: #e5c97f !important;
+    border-radius: 10px;
+}
+
+.footer-area-section .footer_logo img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-area-section .footer_logo:hover {
+    background-color: white !important;
+    transition: 1s ease-in;
+}
+
+.footer-area-section .widget_title {
+    margin-bottom: 25px;
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+}
+
+.footer-area-section img {
+    width: 60%;
+    height: auto;
+}
+
+.footer-area-section .single_footer_widget h5 {
+    color: #e5c97f;
+    margin-bottom: 10px;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.footer-area-section .single_footer_widget span {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-family: 'Dancing Script', 'Cursive';
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-area-section .single_footer_widget a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-area-section .single_footer_widget ul {
+    list-style-type: none;
+}
+
+
+.footer-area-section .single_footer_widget ul li {
+    line-height: 2;
+}
+
+.footer-area-section .single_footer_widget ul li a {
+    color: white;
+    font-family: 'Dancing Script', 'Cursive';
+    font-size: 1.2em;
+}
+
+.footer-area-section .single_footer_widget ul li a:hover {
+    color: #e5c97f;
+    transition: 0.5s;
+}
+
+.footer-area-section .letest_blog_area .post_title {
+    color: #fff;
+    font-size: 1em;
+}
+
+
+
+.footer-area-section .letest_blog_area .post_title:hover {
+    color: #e5c97f;
+    transition: 0.5s;
+}
+
+.footer-area-section .single_footer_widget form {
+    position: relative;
+    z-index: 1;
+}
+
+.footer-area-section input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #edebed;
+    border-radius: 50px;
+}
+
+.footer-area-section .single_footer_widget span {
+    margin-bottom: 20px;
+}
+
+.footer-area-section .single_footer_widget .form-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #e5c97f;
+    border-radius: 50px;
+    top: 0;
+    right: 3;
+    border: none;
+}
+
+.footer-area-section .social-info {
+    text-align: right;
+}
+
+.footer-area-section .social-info a {
+    padding-left: 20px;
+    color: #afb4bf;
+    font-size: 1.4em;
+}
+
+.footer-area-section .social-info a:hover {
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+.footer-area-section .copyright-text p {
+    color: grey;
+}
+
+.footer-area-section .copyright-text p:hover {
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.footer-area-section .copyright-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-area-section .copyright-text a:hover {
+    color: #e5c97f;
+    transition: 0.5s;
+}
+
+.footer-area-section #icon {
+    font-size: 1.4em;
+    color: #e5c97f;
+}
+
+.footer-area-section .copyright-content {
+    border-top: 1px solid white;
+    padding: 15px 0px;
+}
+
+/*css ends for footer area*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Query*/
+
+@media (max-width: 575.98px) {
+    #wrapper {
+        display: block !important;
+    }
+
+    .top-header-area .top-header-content span {
+        font-size: 1em;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    div.top-social-area {
+        margin: auto;
+        font-size: 1.2em;
+    }
+
+    .welcome-area .welcome-text h2 {
+        font-size: 1em;
+    }
+
+    .welcome-area .welcome-text h6 {
+        font-size: 3em !important;
+    }
+
+    .about-area .hotel-search-form .col-6 {
+        margin-top: 40px;
+    }
+
+    .about-area .about-us-thumbnail #FirstThumb,
+    #SecondThumb {
+        width: 100%;
+        height: 140px;
+    }
+
+    .wedding_section .section_heading {
+        font-size: 2.4em !important;
+    }
+
+    .wedding_section .card-text {
+        line-height: 20px;
+    }
+
+
+    .services_area .section_heading h1 {
+        font-size: 2.4em;
+    }
+
+    .wedding_section .section-heading h1 {
+        margin-top: 100px !important;
+    }
+
+    .our_project_section .section_title h2 {
+        font-size: 3em;
+    }
+
+    .our_project_section .filters_content .section_heading p {
+        font-size: 1.2em;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .gallery-block .col-sm-6 {
+        margin-left: 50px;
+    }
+
+    .Parallex_Three .parallex_heading {
+        font-size: 1.4em;
+    }
+
+    .partner-area .partner-area-content h1 {
+        font-size: 2em !important;
+    }
+}
+
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+    #wrapper {
+        display: block !important;
+    }
+
+    .top-header-area .top-header-content span {
+        font-size: 1em;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    div.top-social-area {
+        margin: auto;
+        font-size: 1.2em;
+    }
+
+    .welcome-area .welcome-text h2 {
+        font-size: 1em;
+    }
+
+    .welcome-area .welcome-text h6 {
+        font-size: 3em !important;
+    }
+
+    .about-area .hotel-search-form .col-6 {
+        margin-top: 40px;
+    }
+
+    .about-area .about-us-thumbnail #FirstThumb,
+    #SecondThumb {
+        width: 100%;
+        height: 140px;
+    }
+
+    .wedding_section .section_heading {
+        font-size: 2.4em !important;
+    }
+
+    .wedding_section .card-text {
+        line-height: 20px;
+    }
+
+    .our_project_section .single_our_project .single_offer img {
+        width: 120% !important;
+        height: 280px;
+    }
+
+    .our_project_section .single_our_project .single_offer .hover_text {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    #wrapper {
+        display: block !important;
+    }
+
+    .about-area .hotel-search-form .col-6 {
+        margin-top: 40px;
+    }
+
+    .about-area .hotel-search-form .col-6 {
+        margin-top: 0px;
+    }
+
+    .about-area .about-us-thumbnail #FirstThumb,
+    #SecondThumb {
+        width: 100%;
+        height: 140px !important;
+    }
+
+    .services_area .serviceBox .service-icon {
+        padding-left: 0px;
+    }
+
+    .services_area .serviceBox .service-icon img {
+        width: 100%;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199.98) {
+
+    #wrapper {
+        display: none !important;
+    }
+
+    div.top-social-area {
+        margin: auto;
+        font-size: 1.2em;
+    }
+
+}
+
+@media (min-width:1200px) {
+    #wrapper {
+        display: none !important;
+    }
+
+    .about-area .hotel-search-form .col-6 {
+        margin-top: 0px;
+    }
+}
+
+/*/Media Query*/
